@@ -80,7 +80,7 @@
       const frete = parseFloat(freteInput.value) || 0;
 
       const resultado = (receber + frete) / ((100 - taxa) / 100);
-      resultadoDiv.textContent = 'Resultado: R$ ' + resultado.toFixed(2);
+      resultadoDiv.textContent = 'Anunciar: R$ ' + resultado.toFixed(2);
     }
 
     receberInput.addEventListener('input', calcular);
